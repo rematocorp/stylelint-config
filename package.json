@@ -1,11 +1,10 @@
 {
-  "name": "@remato/stylelint-config",
-  "version": "1.0.0",
-  "devDependencies": {
-    "@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
-  },
-  "peerDependencies": {
-    "stylelint": "^13.8.0",
-    "stylelint-declaration-use-variable": "^1.7.2"
-  }
+	"name": "@remato/stylelint-config",
+	"version": "1.0.1",
+	"dependencies": {
+		"stylelint-declaration-use-variable": "^1.7.2"
+	},
+	"devDependencies": {
+		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
+	}
 }
