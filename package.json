@@ -1,0 +1,8 @@
+{
+  "name": "@remato/stylelint-config",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "stylelint": "^13.8.0",
+    "stylelint-declaration-use-variable": "^1.7.2"
+  }
+}
