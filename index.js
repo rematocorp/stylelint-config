@@ -7,15 +7,7 @@ module.exports = {
 			[
 				'/color/',
 				{
-					ignoreValues: [
-						'transparent',
-						'inherit',
-						'currentColor',
-						'initial',
-						'/darken/',
-						'/lighten/',
-						'/rgba/',
-					],
+					ignoreValues: ['transparent', 'inherit', 'currentColor', 'initial'],
 				},
 			],
 		],
