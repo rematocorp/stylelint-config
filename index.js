@@ -8,8 +8,9 @@ module.exports = {
 		'sh-waqar/declaration-use-variable': [
 			[
 				'/color/',
+				'border-radius',
 				{
-					ignoreValues: ['transparent', 'inherit', 'currentColor', 'initial'],
+					ignoreValues: ['0', 'transparent', 'inherit', 'currentColor', 'initial'],
 				},
 			],
 		],
