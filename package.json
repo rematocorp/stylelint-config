@@ -1,8 +1,10 @@
 {
 	"name": "@remato/stylelint-config",
-	"version": "1.3.0",
+	"version": "1.4.0",
+	"license": "MIT",
 	"dependencies": {
-		"stylelint-declaration-use-variable": "^1.7.2"
+		"stylelint-declaration-use-variable": "^1.7.2",
+		"stylelint-scss": "^3.19.0"
 	},
 	"devDependencies": {
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
