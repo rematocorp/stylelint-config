@@ -1,5 +1,5 @@
 module.exports = {
-	plugins: ['stylelint-declaration-use-variable'],
+	plugins: ['stylelint-declaration-use-variable', 'stylelint-scss'],
 	rules: {
 		// Avoids errors
 		'color-no-invalid-hex': true,
@@ -20,16 +20,11 @@ module.exports = {
 		'selector-pseudo-element-no-unknown': true,
 		'selector-type-no-unknown': true,
 		'media-feature-name-no-unknown': true,
-		'at-rule-no-unknown': [
-			true,
-			{
-				ignoreAtRules: ['mixin', 'include'],
-			},
-		],
 		'no-duplicate-selectors': true,
 		'no-duplicate-at-import-rules': true,
 		'no-empty-source': true,
 		'no-extra-semicolons': true,
+		'scss/at-rule-no-unknown': true,
 
 		// Enforces DRY
 		'at-rule-disallowed-list': ['keyframes'],
@@ -50,5 +45,9 @@ module.exports = {
 		'selector-no-vendor-prefix': true,
 		'media-feature-name-no-vendor-prefix': true,
 		'at-rule-no-vendor-prefix': true,
+
+		// Improves comments quality
+		'scss/double-slash-comment-whitespace-inside': 'always',
+		'scss/comment-no-empty': true,
 	},
 }
