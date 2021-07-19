@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"stylelint-declaration-use-variable": "^1.7.2",
-		"stylelint-scss": "^3.19.0"
+		"stylelint-scss": "^3.20.1"
 	},
 	"devDependencies": {
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
