@@ -1,6 +1,6 @@
 {
 	"name": "@remato/stylelint-config",
-	"version": "1.4.1",
+	"version": "1.5.0",
 	"license": "MIT",
 	"dependencies": {
 		"stylelint-declaration-use-variable": "^1.7.2",

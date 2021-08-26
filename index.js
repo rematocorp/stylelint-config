@@ -49,5 +49,13 @@ module.exports = {
 		// Improves comments quality
 		'scss/double-slash-comment-whitespace-inside': 'always',
 		'scss/comment-no-empty': true,
+
+		// Improves readability
+		'rule-empty-line-before': [
+			'always',
+			{
+				except: ['after-single-line-comment', 'first-nested'],
+			},
+		],
 	},
 }
