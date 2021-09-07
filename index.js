@@ -27,7 +27,6 @@ module.exports = {
 		'scss/at-rule-no-unknown': true,
 
 		// Enforces DRY
-		'at-rule-disallowed-list': ['keyframes'],
 		'color-named': 'never',
 		'sh-waqar/declaration-use-variable': [
 			[
