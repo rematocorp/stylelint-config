@@ -1,5 +1,5 @@
 module.exports = {
-	plugins: ['stylelint-declaration-use-variable', 'stylelint-scss'],
+	plugins: ['stylelint-declaration-strict-value', 'stylelint-scss'],
 	rules: {
 		// Avoids errors
 		'color-no-invalid-hex': true,
@@ -28,14 +28,11 @@ module.exports = {
 
 		// Enforces DRY
 		'color-named': 'never',
-		'sh-waqar/declaration-use-variable': [
-			[
-				'/color/',
-				'border-radius',
-				{
-					ignoreValues: ['0', 'transparent', 'inherit', 'currentColor', 'initial'],
-				},
-			],
+		'scale-unlimited/declaration-strict-value': [
+			['/color/', 'border-radius'],
+			{
+				ignoreValues: ['0', 'transparent', 'inherit', 'currentColor', 'initial'],
+			},
 		],
 
 		// Avoids doing autoprefixer job
