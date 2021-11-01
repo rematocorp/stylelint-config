@@ -10,6 +10,6 @@
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
 	},
 	"peerDependencies": {
-		"stylelint": ">=13.13.1"
+		"stylelint": ">=14.0.0"
 	}
 }
