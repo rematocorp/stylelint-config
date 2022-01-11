@@ -4,7 +4,6 @@ module.exports = {
 		// Avoids errors
 		'color-no-invalid-hex': true,
 		'block-no-empty': true,
-		'function-calc-no-invalid': true,
 		'function-calc-no-unspaced-operator': true,
 		'unit-no-unknown': true,
 		'property-no-unknown': true,
