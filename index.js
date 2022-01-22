@@ -23,6 +23,7 @@ module.exports = {
 		'no-duplicate-at-import-rules': true,
 		'no-empty-source': true,
 		'no-extra-semicolons': true,
+		'font-weight-notation': 'numeric',
 		'scss/at-rule-no-unknown': true,
 
 		// Enforces DRY
