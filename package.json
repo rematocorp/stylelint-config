@@ -1,15 +1,17 @@
 {
 	"name": "@remato/stylelint-config",
-	"version": "1.9.0",
+	"version": "1.10.6",
 	"license": "MIT",
 	"dependencies": {
-		"stylelint-declaration-strict-value": "^1.9.2",
-		"stylelint-scss": "^5.1.0"
+		"postcss-html": "^1.5.0",
+		"stylelint-config-html": "^1.1.0",
+		"stylelint-config-recommended-scss": "^12.0.0",
+		"stylelint-declaration-strict-value": "^1.9.2"
 	},
 	"devDependencies": {
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
 	},
 	"peerDependencies": {
-		"stylelint": ">=13.13.1"
+		"stylelint": ">=15.0.0"
 	}
 }

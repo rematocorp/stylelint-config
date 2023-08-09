@@ -1,12 +1,17 @@
 module.exports = {
-	plugins: ['stylelint-declaration-strict-value', 'stylelint-scss'],
+	extends: ['stylelint-config-recommended-scss', 'stylelint-config-html'],
+	plugins: ['stylelint-declaration-strict-value'],
 	rules: {
+		// Turns off undesired checks
+		'function-linear-gradient-no-nonstandard-direction': null,
+		'no-descending-specificity': null,
+
 		// Avoids errors
 		'color-no-invalid-hex': true,
 		'block-no-empty': true,
 		'function-calc-no-unspaced-operator': true,
-		'unit-no-unknown': true,
 		'property-no-unknown': true,
+		'unit-no-unknown': true,
 		'keyframe-declaration-no-important': true,
 		'declaration-block-no-duplicate-properties': [
 			true,
@@ -15,16 +20,21 @@ module.exports = {
 			},
 		],
 		'declaration-block-no-shorthand-property-overrides': true,
-		'selector-pseudo-class-no-unknown': true,
-		'selector-pseudo-element-no-unknown': true,
 		'selector-type-no-unknown': true,
+		'selector-pseudo-class-no-unknown': [
+			true,
+			{
+				ignorePseudoClasses: ['deep', 'global', 'slotted'],
+			},
+		],
+		'selector-pseudo-element-no-unknown': true,
 		'media-feature-name-no-unknown': true,
 		'no-duplicate-selectors': true,
 		'no-duplicate-at-import-rules': true,
 		'no-empty-source': true,
-		'no-extra-semicolons': true,
 		'font-weight-notation': 'numeric',
 		'scss/at-rule-no-unknown': true,
+		'scss/function-no-unknown': true,
 
 		// Enforces DRY
 		'color-named': 'never',
