@@ -1,6 +1,6 @@
 {
 	"name": "@remato/stylelint-config",
-	"version": "1.10.6",
+	"version": "2.0.0",
 	"license": "MIT",
 	"dependencies": {
 		"postcss-html": "^1.6.0",
@@ -12,6 +12,6 @@
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
 	},
 	"peerDependencies": {
-		"stylelint": ">=15.0.0"
+		"stylelint": ">=16.0.0"
 	}
 }

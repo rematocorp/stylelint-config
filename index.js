@@ -34,7 +34,12 @@ module.exports = {
 		'no-empty-source': true,
 		'font-weight-notation': 'numeric',
 		'scss/at-rule-no-unknown': true,
-		'scss/function-no-unknown': true,
+		'scss/function-no-unknown': [
+			true,
+			{
+				ignoreFunctions: ['calc'],
+			},
+		],
 
 		// Enforces DRY
 		'color-named': 'never',
