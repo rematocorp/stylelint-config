@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"postcss-html": "^1.6.0",
-		"stylelint": "^16.3.1",
+		"stylelint": "^16.4.0",
 		"stylelint-config-html": "^1.1.0",
 		"stylelint-config-recommended-scss": "^14.0.0",
 		"stylelint-declaration-strict-value": "^1.10.4"
