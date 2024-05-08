@@ -3,7 +3,7 @@
 	"version": "2.0.1",
 	"license": "MIT",
 	"dependencies": {
-		"postcss-html": "^1.6.0",
+		"postcss-html": "^1.7.0",
 		"stylelint": "^16.4.0",
 		"stylelint-config-html": "^1.1.0",
 		"stylelint-config-recommended-scss": "^14.0.0",
