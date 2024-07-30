@@ -7,7 +7,7 @@
 		"stylelint": "^16.7.0",
 		"stylelint-config-html": "^1.1.0",
 		"stylelint-config-recommended-scss": "^14.1.0",
-		"stylelint-declaration-strict-value": "^1.10.4"
+		"stylelint-declaration-strict-value": "^1.10.6"
 	},
 	"devDependencies": {
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
