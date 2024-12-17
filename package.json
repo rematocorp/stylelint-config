@@ -13,7 +13,7 @@
 		"stylelint-declaration-strict-value": "^1.10.6"
 	},
 	"devDependencies": {
-		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
+		"@remato/prettier-config": "^1.0.0"
 	},
 	"packageManager": "yarn@4.1.0"
 }
