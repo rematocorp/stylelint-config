@@ -10,7 +10,7 @@
 		"stylelint": "^16.13.2",
 		"stylelint-config-html": "^1.1.0",
 		"stylelint-config-recommended-scss": "^14.1.0",
-		"stylelint-declaration-strict-value": "^1.10.8"
+		"stylelint-declaration-strict-value": "^1.10.10"
 	},
 	"devDependencies": {
 		"@remato/prettier-config": "^1.0.0"
