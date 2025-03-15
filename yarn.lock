@@ -127,7 +127,7 @@ __metadata:
     stylelint: "npm:^16.16.0"
     stylelint-config-html: "npm:^1.1.0"
     stylelint-config-recommended-scss: "npm:^14.1.0"
-    stylelint-declaration-strict-value: "npm:^1.10.10"
+    stylelint-declaration-strict-value: "npm:^1.10.11"
   languageName: unknown
   linkType: soft
 
@@ -306,24 +306,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-color-names@npm:0.0.4":
-  version: 0.0.4
-  resolution: "css-color-names@npm:0.0.4"
-  checksum: 10c0/88ef97c25bcfb217469cdff428049022438cc546eb208210f0edec03b75050723db3ba02cd0f4959c84cd0659be0b43af3323eff80d1ba5fb15c2accf09ccbe2
-  languageName: node
-  linkType: hard
-
 "css-functions-list@npm:^3.2.3":
   version: 3.2.3
   resolution: "css-functions-list@npm:3.2.3"
   checksum: 10c0/03f9ed34eeed310d2b1cf0e524eea02bc5f87854a4de85f8957ea432ab1036841a3fb00879590519f7bb8fda40d992ce7a72fa9b61696ca1dc53b90064858f96
-  languageName: node
-  linkType: hard
-
-"css-shorthand-properties@npm:^1.0.0":
-  version: 1.1.2
-  resolution: "css-shorthand-properties@npm:1.1.2"
-  checksum: 10c0/848445ae836da55a3e00333b8413e0ade323d292ebd7336c9ebe1c1da6adc2b7d6e30e6aca808a37e33c5ba4923b795affe21229a5942098534ee3ad77beea52
   languageName: node
   linkType: hard
 
@@ -334,17 +320,6 @@ __metadata:
     mdn-data: "npm:2.12.2"
     source-map-js: "npm:^1.0.1"
   checksum: 10c0/b5715852c2f397c715ca00d56ec53fc83ea596295ae112eb1ba6a1bda3b31086380e596b1d8c4b980fe6da09e7d0fc99c64d5bb7313030dd0fba9c1415f30979
-  languageName: node
-  linkType: hard
-
-"css-values@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "css-values@npm:0.1.0"
-  dependencies:
-    css-color-names: "npm:0.0.4"
-    ends-with: "npm:^0.2.0"
-    postcss-value-parser: "npm:^3.3.0"
-  checksum: 10c0/e9269657c5483db78a6e7891a9a92a86d6724b4ff64133d90e6d09a0c8ee781dad9497cfbdd4e4b771d77faa8869fb5a457629f183eb7272875862580a9b443f
   languageName: node
   linkType: hard
 
@@ -420,13 +395,6 @@ __metadata:
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
   checksum: 10c0/b6053ad39951c4cf338f9092d7bfba448cdfd46fe6a2a034700b149ac9ffbc137e361cbd3c442297f86bed2e5f7576c1b54cc0a6bf8ef5106cc62f496af35010
-  languageName: node
-  linkType: hard
-
-"ends-with@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "ends-with@npm:0.2.0"
-  checksum: 10c0/9c8d0f700ab8e1422e306cd520db7ebfd0cee45e8fbc5a114ab5a121b235bc2c653ea78cff9b4c8f9420a15b625f73f1f8b64a729527512ed6c2e99b319ce2db
   languageName: node
   linkType: hard
 
@@ -997,13 +965,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-value-parser@npm:^3.3.0":
-  version: 3.3.1
-  resolution: "postcss-value-parser@npm:3.3.1"
-  checksum: 10c0/23eed98d8eeadb1f9ef1db4a2757da0f1d8e7c1dac2a38d6b35d971aab9eb3c6d8a967d0e9f435558834ffcd966afbbe875a56bcc5bcdd09e663008c106b3e47
-  languageName: node
-  linkType: hard
-
 "postcss-value-parser@npm:^4.2.0":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
@@ -1081,15 +1042,6 @@ __metadata:
   dependencies:
     queue-microtask: "npm:^1.2.2"
   checksum: 10c0/200b5ab25b5b8b7113f9901bfe3afc347e19bb7475b267d55ad0eb86a62a46d77510cb0f232507c9e5d497ebda569a08a9867d0d14f57a82ad5564d991588b39
-  languageName: node
-  linkType: hard
-
-"shortcss@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "shortcss@npm:0.1.3"
-  dependencies:
-    css-shorthand-properties: "npm:^1.0.0"
-  checksum: 10c0/9fafbca3390608acafcc0cb2f3a8abe62cf51684e9189406b29f3242d4dbc93e9757a34d2017d7c3abe3b3a451b961d70acfe7e48acba5e362dbd7dd5752ca1a
   languageName: node
   linkType: hard
 
@@ -1188,15 +1140,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-declaration-strict-value@npm:^1.10.10":
-  version: 1.10.10
-  resolution: "stylelint-declaration-strict-value@npm:1.10.10"
-  dependencies:
-    css-values: "npm:^0.1.0"
-    shortcss: "npm:^0.1.3"
+"stylelint-declaration-strict-value@npm:^1.10.11":
+  version: 1.10.11
+  resolution: "stylelint-declaration-strict-value@npm:1.10.11"
   peerDependencies:
     stylelint: ">=7 <=16"
-  checksum: 10c0/f376e9bbea9e2b3bf199c7bfa6b6833369129c868b5820d77a06eb8d51d1dc7c5dc0d170403fa5ceedee8c0e1339ecb57327f1a7c7170ac7773f436e20036ebd
+  checksum: 10c0/bce333ce0ae7229aaf24a868cba7dfa9fc5c584aec441cfc145e72647cd7579e604158a77974758eb0625364b62251fbc85916b31870c1950e8988cfffb02871
   languageName: node
   linkType: hard
 
