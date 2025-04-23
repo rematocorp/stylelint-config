@@ -7,7 +7,7 @@
 	},
 	"dependencies": {
 		"postcss-html": "^1.8.0",
-		"stylelint": "^16.18.0",
+		"stylelint": "^16.19.0",
 		"stylelint-config-html": "^1.1.0",
 		"stylelint-config-recommended-scss": "^14.1.0",
 		"stylelint-declaration-strict-value": "^1.10.11"
