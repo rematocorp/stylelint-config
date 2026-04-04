@@ -166,7 +166,7 @@ __metadata:
     stylelint: "npm:^16.26.1"
     stylelint-config-html: "npm:^1.1.0"
     stylelint-config-recommended-scss: "npm:^16.0.2"
-    stylelint-declaration-strict-value: "npm:^1.10.11"
+    stylelint-declaration-strict-value: "npm:^1.11.1"
   languageName: unknown
   linkType: soft
 
@@ -1175,12 +1175,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-declaration-strict-value@npm:^1.10.11":
-  version: 1.10.11
-  resolution: "stylelint-declaration-strict-value@npm:1.10.11"
+"stylelint-declaration-strict-value@npm:^1.11.1":
+  version: 1.11.1
+  resolution: "stylelint-declaration-strict-value@npm:1.11.1"
   peerDependencies:
-    stylelint: ">=7 <=16"
-  checksum: 10c0/bce333ce0ae7229aaf24a868cba7dfa9fc5c584aec441cfc145e72647cd7579e604158a77974758eb0625364b62251fbc85916b31870c1950e8988cfffb02871
+    stylelint: ">=16 <=17"
+  checksum: 10c0/57e9edb16bf9090d49319ba3e48745869d94e6823588cb0c6895b4d8f2a341f0bfc5aecb8ebef3c454ec48fc9e7c938291ab3bc64079af45889752e088d843e5
   languageName: node
   linkType: hard
 
