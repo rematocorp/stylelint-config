@@ -181,7 +181,7 @@ __metadata:
     "@remato/prettier-config": "npm:^1.1.0"
     postcss-html: "npm:^2.0.0"
     stylelint: "npm:^17.14.1"
-    stylelint-config-html: "npm:^1.1.0"
+    stylelint-config-html: "npm:^2.0.0"
     stylelint-config-recommended-scss: "npm:^17.0.1"
     stylelint-declaration-strict-value: "npm:^1.10.11"
   languageName: unknown
@@ -1145,13 +1145,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-html@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "stylelint-config-html@npm:1.1.0"
+"stylelint-config-html@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "stylelint-config-html@npm:2.0.0"
   peerDependencies:
-    postcss-html: ^1.0.0
-    stylelint: ">=14.0.0"
-  checksum: 10c0/7af0875554608fd17cf04b5ede54186123f7cd2d94a41e79bb3d67796a1a643ce543f1248cec8122a5551f93d59ef0ebec44169779a06a6812b49294439ce8e0
+    postcss-html: ^2.0.0
+    stylelint: ">=16.0.0"
+  checksum: 10c0/b45f3a7e7d2f1baaac377456745e5705e30734bf354a45e9846a1bc63b1ae93ca189703a2e93c15c87e1991eb37224911560d0f3f35fa991d912cbb5363b505c
   languageName: node
   linkType: hard
 
